@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    [self.textLabel setFont:[UIFont fontWithName:@"AdventPro-Regular" size:25.0]];
 }
 
 

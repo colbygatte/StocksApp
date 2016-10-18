@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"AdventPro-Regular" size:20]];
+    
+    
+    
     return YES;
 }
 

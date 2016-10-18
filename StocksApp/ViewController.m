@@ -32,6 +32,9 @@
     self.stocks = [[NSMutableArray alloc] init];
     [self loadStockData];
     
+    
+    // AdventPro-Regular
+    
 }
 
 - (void) saveStockData {
@@ -61,6 +64,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 
 @end
